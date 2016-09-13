@@ -1,0 +1,129 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="css/style2.css" rel="stylesheet">
+<script>
+
+$(document).ready(function(){	
+	$("#text1").hide();
+			$("#text2").hide();
+			$("#text3").hide();
+			$("#text4").hide();
+			$("#text5").hide();
+			$("#text6").hide();
+
+	$("#button").click(function(){
+		$("#text").hide();
+		$("#text1").show();
+	});
+	$("#button1").click(function(){
+		$("#text1").hide();
+		$("#text2").show();
+	});
+	$("#button2").click(function(){
+		$("#text2").hide();
+		$("#text3").show();
+	});
+	$("#button3").click(function(){
+		$("#text3").hide();
+		$("#text4").show();
+	});
+	$("#button4").click(function(){
+		$("#text4").hide();
+		$("#text5").show();
+	});
+	$("#button5").click(function(){
+		$("#text5").hide();
+		$("#text6").show();
+	});
+
+});
+</script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" id="nav">
+<div class="navbar-header">
+
+<a class="navbar-brand" href="#">Car Cart</a>
+</div>
+<ul class="nav navbar-nav navbar-right" >
+<li style="margin-right:10px;"><a href="#">Home</a></li>
+<li style="margin-right:10px;"><a href="recommend.html">Recommendation</a></li>
+</ul>
+</nav>
+<div class="container-fluid" id="cover">
+<div class="row">
+<div class="col-md-6" style="margin-left:500px;">
+<div style="padding-top:50px;"><h2>Recommend a Car</h2></div>
+<div class="row">
+<div class="col-md-6" id="text">
+<h3 style="padding-left:30px;"> What is your preffered style?</h3>
+<br><select class="select" style="margin-left:20px;">
+<option value="0">--Select--</option>
+<option value="1">SUV </option>
+<option value="2">Sedan</option>
+<option value="3">Hatchback</option>
+<option value="4">Any</option>
+</select>
+<br><br><button type="button" class="btn btn-primary" style="margin-left:20px;" id="button"> Next</button>
+</div>
+<div class="col-md-6" id="text1">
+<h3 style="padding-left:30px;"> What is your budget?</h3>
+<br><input type="text" style="margin-left: 20px;"></input>
+<br><br><button type="button" class="btn btn-primary" style="margin-left: 20px;" id="button1">Next</button>
+</div>
+<div class="col-md-6" id="text2">
+<h3 style="padding-left:30px;">Housing you prefer</h3>
+<br><input type="text" style="margin-left: 20px;"></input>
+<br><br><button type="button" class="btn btn-primary" style="margin-left: 20px;" id="button2">Next</button>
+</div>
+<div class="col-md-6" id="text3">
+<h3 style="padding-left:30px;"> What is your preffered fuel?</h3>
+<br><select class="select" style="margin-left:20px;">
+<option value="0">--Select--</option>
+<option value="1">Petrol </option>
+<option value="2">Diesel</option>
+<option value="3">Electric</option>
+<option value="4">LPG</option>
+<option value="5">Any</option>
+</select>
+<br><br><button type="button" class="btn btn-primary" style="margin-left:20px;" id="button3"> Next</button>
+</div  >
+<div class="col-md-6" id="text4">
+<h3 style="padding-left:30px;"> What is your preffered brand?</h3>
+<br><select class="select" style="margin-left:20px;">
+<option value="0">--Select--</option>
+<option value="5">Any</option>
+</select>
+<br><br><button type="button" class="btn btn-primary" style="margin-left:20px;" id="button4"> Next</button>
+</div>
+<div class="col-md-6" id="text5">
+<h3 style="padding-left:30px;">Your monthly usage</h3>
+<br><input type="text" style="margin-left: 20px;">km</input>
+<br><br><button type="button" class="btn btn-primary" style="margin-left: 20px;" id="button5">Next</button>
+</div>
+<div class="col-md-6" id="text6">
+<h3 style="padding-left:30px;">Special features</h3>
+<br><input type="radio" style="margin-left:20px;">ABS</input>
+<input type="radio" style="padding-left:40px; margin-left:10px;">Airbags</input>
+<input type="radio" style="padding-left:60px;margin-left:10px;">Power Windows</input>
+<input type="radio" style="padding-left:80px;margin-left:10px;">Central Locking</input>
+<input type="radio" style="padding-left:100px;margin-left:10px;">Child friendly</input>
+<br><br><button type="button" class="btn btn-primary" style="margin-left:20px;" id="button6">Finish</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
