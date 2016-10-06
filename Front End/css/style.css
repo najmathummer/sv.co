@@ -1,0 +1,49 @@
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+h2
+{
+	text-align:center;
+	 margin-top:100px;
+}
+.btn-info
+{
+	margin-left:650px;
+	width:80px;
+	 background-color:black;
+	 border-color:black;
+}
+h1
+{
+	font-size:100px;
+	text-align: center;
+}
+#main
+{
+	padding-top:100px;
+}
+#choice
+{
+	margin-left: 650px;
+}
+#option
+{
+	margin-left: 600px;
+}
+
+h4
+{
+	text-align:center;
+}
+
+footer
+{
+	background-color:black;
+	padding-top: 10px;
+}

@@ -1,0 +1,134 @@
+<html>
+		<head>
+				<meta charset="utf-8">
+  				<meta name="viewport" content="width=device-width, initial-scale=1">
+  				<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  				<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<link href="css/style.css" rel="stylesheet">
+
+				<script>
+					$(document).ready(function(){	
+							$("#text1").hide();
+							$("#text2").hide();
+							$("#text3").hide();
+							$("#text4").hide();
+							$("#text5").hide();
+							$("#text6").hide();
+							$("#text7").hide();
+
+							$("#button").click(function(){
+							$("#text").hide();
+							$("#text1").show();
+						});
+						$("#button1").click(function(){
+							$("#text1").hide();
+							$("#text2").show();
+						});
+						$("#button2").click(function(){
+							$("#text2").hide();
+							$("#text3").show();
+						});
+						$("#button3").click(function(){
+							$("#text3").hide();
+							$("#text4").show();
+						});
+						$("#button4").click(function(){
+							$("#text4").hide();
+							$("#text5").show();
+						});
+						$("#button5").click(function(){
+							$("#text5").hide();
+							$("#text6").show();
+						});
+						$("#button6").click(function(){
+							$("#text6").hide();
+							$("#text7").show();
+						});
+
+					});
+</script>
+
+				<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+  						<div class="container-fluid">
+    						<div class="navbar-header">
+      								<a class="navbar-brand" href="#">CarKart</a>
+    						</div>
+    						
+  						</div>
+				</nav>
+		</head>
+
+		<body>
+		<div>
+			<img src="images/car.jpg" id="bg" alt="">
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div id="main"><b><h1>Choose your car</h1></b></div>
+
+				</div>
+			<div class="row">
+				<div class="col-md-12" id="text">
+					<b><h2>Choose your car with CarKart</h2></b>
+					<br><br><button type="button" class="btn btn-info" id="button">Begin</button>
+				</div>
+				<div class="col-md-12" id="text1">
+					<b><h2> What is your preffered style?</h2></b>
+					<br><select class="select" id="choice">
+							<option value="0">--Select--</option>
+					</select>
+					<br><br><button type="button" class="btn btn-info" id="button1"> Next</button>
+
+				</div>
+				<div class="col-md-12" id="text2">"
+					<b><h2> What is your budget?</h2></b>
+					<br><input type="text" id="option"></input>
+					<br><br><button type="button" class="btn btn-info" id="button2">Next</button>
+				</div>
+				<div class="col-md-12" id="text3">
+					<b><h2>Housing you prefer</h2></b>
+					<br><input type="text" id="option"></input>
+					<br><br><button type="button" class="btn btn-info" id="button3">Next</button>
+				</div>
+				<div class="col-md-12" id="text4">
+					<b><h2> What is your preffered fuel?</h2></b>
+					<br><select class="select" id="choice">
+							<option value="0">--Select--</option>
+
+					</select>
+					<br><br><button type="button" class="btn btn-info" id="button4"> Next</button>
+				</div>
+				<div class="col-md-12" id="text5">
+					<b><h2> What is your preffered brand?</h2></b>
+					<br><select class="select" id="choice">
+							<option value="0">--Select--</option>
+							<option value="5">Any</option>
+					</select>
+					<br><br><button type="button" class="btn btn-info" id="button5"> Next</button>
+				</div>
+				<div class="col-md-12" id="text6">
+					<b><h2>Your monthly usage</h2></b>
+					<br><input type="text" id="option">km</input>
+					<br><br><button type="button" class="btn btn-info" id="button6" >Next</button>
+				</div>
+				<div class="col-md-12" id="text7">
+					<h2>Special features</h2>
+					<br><input type="radio" id="choice">ABS</input>
+					<br><input type="radio" id="choice">Airbags</input>
+					<br><input type="radio" id="choice">Power Windows</input>
+					<br><input type="radio" id="choice">Central Locking</input>
+					<br><input type="radio" id="choice">Child friendly</input>
+					<br><br><button type="button" class="btn btn-info" id="button7" >Finish</button>
+				</div>
+			</div>
+		</div>
+			
+
+		</body>	
+
+		<footer class=" navbar navbar-fixed-bottom" >
+		
+		</footer>
+
+</html>
