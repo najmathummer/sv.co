@@ -49,7 +49,7 @@
 					});
 </script>
 
-				<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+				<nav>
   						<div class="container-fluid">
     						<div class="navbar-header">
       								<a class="navbar-brand" href="#">CarKart</a>
@@ -61,34 +61,38 @@
 
 		<body>
 		<div>
-			<img src="images/car.jpg" id="bg" alt="">
+		<img src="images/volk.jpg" id="bg" alt="">
 			
-			<div class="row">
+			<div class="row" >
 				<div class="col-md-12">
 					<div id="main"><b><h1>Choose your car</h1></b></div>
 
 				</div>
-			<div class="row">
+			<div class="row" style="padding-left:500px; padding-top: -200px; ">
 				<div class="col-md-12" id="text">
 					<b><h2>Choose your car with CarKart</h2></b>
 					<br><br><button type="button" class="btn btn-info" id="button">Begin</button>
 				</div>
 				<div class="col-md-12" id="text1">
-					<b><h2> What is your preffered style?</h2></b>
+					<b><h2> What is your preffered category?</h2></b>
 					<br><select class="select" id="choice">
 							<option value="0">--Select--</option>
 					</select>
 					<br><br><button type="button" class="btn btn-info" id="button1"> Next</button>
 
 				</div>
-				<div class="col-md-12" id="text2">"
+				<div class="col-md-12" id="text2">
 					<b><h2> What is your budget?</h2></b>
 					<br><input type="text" id="option"></input>
 					<br><br><button type="button" class="btn btn-info" id="button2">Next</button>
 				</div>
 				<div class="col-md-12" id="text3">
-					<b><h2>Housing you prefer</h2></b>
-					<br><input type="text" id="option"></input>
+					<b><h2>Your preferred transmission type</h2></b>
+					<br><select class="select" id="choice">
+							<option value="0">--Select--</option>
+							<option value="1">Automatic</option>
+							<option value="2">Manual</option>
+						</select>
 					<br><br><button type="button" class="btn btn-info" id="button3">Next</button>
 				</div>
 				<div class="col-md-12" id="text4">
@@ -109,16 +113,17 @@
 				</div>
 				<div class="col-md-12" id="text6">
 					<b><h2>Your monthly usage</h2></b>
-					<br><input type="text" id="option">km</input>
+					<br><input type="text" id="option"> km</input>
 					<br><br><button type="button" class="btn btn-info" id="button6" >Next</button>
 				</div>
 				<div class="col-md-12" id="text7">
 					<h2>Special features</h2>
-					<br><input type="radio" id="choice">ABS</input>
-					<br><input type="radio" id="choice">Airbags</input>
-					<br><input type="radio" id="choice">Power Windows</input>
-					<br><input type="radio" id="choice">Central Locking</input>
-					<br><input type="radio" id="choice">Child friendly</input>
+
+					<br><input type="radio" id="choice"><b>ABS</b></input>
+					<br><input type="radio" id="choice"><b>Airbags</b></input>
+					<br><input type="radio" id="choice"><b>Power Windows</b></input>
+					<br><input type="radio" id="choice"><b><strong>Central Locking</strong></b></input>
+					<br><input type="radio" id="choice"><b><strong>Child friendly</strong></b></input>
 					<br><br><button type="button" class="btn btn-info" id="button7" >Finish</button>
 				</div>
 			</div>
@@ -127,7 +132,7 @@
 
 		</body>	
 
-		<footer class=" navbar navbar-fixed-bottom" >
+		<footer  >
 		
 		</footer>
 

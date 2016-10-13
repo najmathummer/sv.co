@@ -11,10 +11,11 @@ h2
 {
 	text-align:center;
 	 margin-top:100px;
+	 color:white;
 }
 .btn-info
 {
-	margin-left:650px;
+	margin-left:400px;
 	width:80px;
 	 background-color:black;
 	 border-color:black;
@@ -26,15 +27,18 @@ h1
 }
 #main
 {
-	padding-top:100px;
+	padding-top:20px;
+	color:white;
+	padding-left:580px;
 }
 #choice
 {
-	margin-left: 650px;
+	margin-left: 400px;
+	color:white;
 }
 #option
 {
-	margin-left: 600px;
+	margin-left: 350px;
 }
 
 h4
